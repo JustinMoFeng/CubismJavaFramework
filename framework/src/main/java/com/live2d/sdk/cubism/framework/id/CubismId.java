@@ -39,7 +39,7 @@ public class CubismId {
      * @param id A ID name
      * @throws IllegalArgumentException if an argument is null
      */
-    CubismId(String id) {
+    public CubismId(String id) {
         if (id == null) {
             throw new IllegalArgumentException("id is null.");
         }
